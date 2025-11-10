@@ -1,7 +1,19 @@
 package com.hez.memoriser;
 
-public class Main {
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
+public class Main extends Application {
+
+    public void start(Stage stage) throws Exception {
+        Stage stage1 = new Stage();
+        stage1.show();
+    }
+
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        launch(args);
     }
 }
